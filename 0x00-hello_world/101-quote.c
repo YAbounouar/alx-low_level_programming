@@ -1,14 +1,13 @@
+#include <stdio.h>
 #include <unistd.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point of the program
+ * main - Entry point
  *
- * Return: Always 1 (indicating successful execution)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
-const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, message, 59); 
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
