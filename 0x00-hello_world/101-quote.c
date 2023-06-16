@@ -23,7 +23,6 @@ return (1);
 while (message[len] != '\0')
 len++;
 
-write(fd, message, len);
-close(fd);
+write(2,  “the text\n” ,  59);
 
 return (1);
