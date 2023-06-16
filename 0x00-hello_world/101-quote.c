@@ -12,12 +12,10 @@
 
 int main(void)
 {
-int fd;
 const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-ssize_t len = 0;
+ssize_t len = 59;
 
-	write(fd, message, len);
-	close(fd); 
+	write(1, message, len); 
 
 return (1);
 }
