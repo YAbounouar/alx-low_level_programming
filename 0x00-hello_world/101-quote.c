@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 
 /**
  * main - Entry point of the program
  *
  * Return: Always 1 (indicating successful execution)
  */
+
 int main(void)
 {
 int fd;
