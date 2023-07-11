@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /**
-  * alloc_grid - ...
-  * @width: ...
-  * @height: ...
-  *
-  * Return: ...
-  */
-
+ * alloc_grid - ...
+ * @width: ...
+ * @height: ...
+ *
+ * Return: ...
+ */
 int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
@@ -48,6 +47,5 @@ int **alloc_grid(int width, int height)
 			a[k][l] = 0;
 		}
 	}
-
-	return (a);
+return (a);
 }
