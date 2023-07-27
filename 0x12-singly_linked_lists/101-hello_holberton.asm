@@ -1,5 +1,5 @@
 section .text
-global main 
+global main
 
 main:
 	mov rax, 1
@@ -8,10 +8,10 @@ main:
 	mov rdx, msglen
 	syscall
 
-	mov rax, 60 
+	mov rax, 60
 	mov rdi, 0
 	syscall
 
 section .rodata
-	msg: db "Hello, Holeberton", 10
-	msglen: equ $  - msg
+	msg: db "Hello, Holberton", 10
+	msglen: equ $ - msg
